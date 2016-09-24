@@ -50,6 +50,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         ab.addTab(ab.newTab().setText("Import and Export").setTabListener(this));
         ab.addTab(ab.newTab().setText("Exchange Rates").setTabListener(this));
         ab.addTab(ab.newTab().setText("Year on growth Stats").setTabListener(this));
+        ab.addTab(ab.newTab().setText("commodities").setTabListener(this));
     }
 
     @Override
